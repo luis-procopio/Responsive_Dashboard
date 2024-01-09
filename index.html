@@ -86,6 +86,17 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
     <script>
+        // MENU TOGGLE
+        let toggle = document.querySelector('.toggle')
+        let navigation = document.querySelector('.navigation')
+        let main = document.querySelector('.main')
+
+        toggle.onclick = function() {
+            navigation.classList.toggle('active')
+            main.classList.toggle('active')
+        }
+
+        // ADD HOUVERED CLASS
         let list = document.querySelectorAll('.navigation li')
         function activeLink(){
             list.forEach((item) => {
