@@ -14,11 +14,10 @@
     --black: #222;
     --black2: #999;
 }
-/* body{
-    display: block;
-    align-items: center;
-    justify-content: center;
-} */
+body{
+    display: grid;
+    place-items: center;
+}
 .container {
     /* align-items: center; */
     position: absolute;
@@ -27,7 +26,7 @@
     top: 20%;
     left: 25%;
     height: 500px;
-    width: 50vw;
+    width: 45vw;
     border-radius: 20px;
     background: var(--blue);
     padding-left: auto;
